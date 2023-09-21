@@ -2,6 +2,12 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+body{
+    background-color: #cdc9a5;
+
 }
 
 /* Inicio do header */
@@ -9,7 +15,6 @@
 .conteiner{  /* Primeiro bloco da div, contem todos os elementos da pagina */
     width: 100%;
     height: 100vh;
-    background-color: white;
 }
 
 .nav{
@@ -20,6 +25,10 @@
     justify-content: space-between; /* Da um espaçamentos entre todos os itens */
     align-items: center;
     border-bottom: 5px solid #388E3C; /* Da uma borda para a div do titulo principal da pagina */
+}
+
+.nav h2{
+    margin-left: 10px;
 }
 
 .row{         /* Transforma em a lista em uma linha de ordem */
@@ -89,6 +98,35 @@
 
 
 }
+
+.col-3{
+    margin-top: 100px;
+}
+
+button{
+   background-color: #4CAF50 ;
+   border-radius: 20px;
+   border: 2px solid black ;
+   width: 150px;
+   height: 50px;
+   font-size: 19px;
+   margin-bottom: 10px;
+   transition: 0.5;
+   color: black;
+    
+}
+
+button:hover{
+    background-color:#388E3C;
+}
+
+.button a{
+    background-color: #4CAF50;
+    text-decoration: none;
+    color: black;
+}
+
+
 
 
 
